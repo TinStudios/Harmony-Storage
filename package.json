@@ -1,21 +1,21 @@
 {
-  "name": "seltorn",
+  "name": "harmony-storage",
   "version": "0.0.0",
-  "description": "Seltorn's storage system",
+  "description": "Harmony's storage system",
   "scripts": {
     "start": "tsc && cross-env NODE_ENV=production node ./build/index.js",
     "start:dev": "cross-env NODE_ENV=development nodemon ./src/index.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Seltorn/Storage.git"
+    "url": "git+https://github.com/TinStudios/Harmony-Storage.git"
   },
-  "author": "Seltorn Team",
+  "author": "Tin Studios",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Seltorn/Storage/issues"
+    "url": "https://github.com/TinStudios/Harmony-Storage/issues"
   },
-  "homepage": "https://github.com/Seltorn/Storage#readme",
+  "homepage": "https://github.com/TinStudios/Harmony-Storage#readme",
   "dependencies": {
     "@types/compression": "^1.7.2",
     "@types/cors": "^2.8.12",
